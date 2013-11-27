@@ -16,17 +16,25 @@ public class MainActivity extends Activity {
 		setContentView(R.layout.activity_main);
 	}
 	
+	/**
+	 * handles clicks
+	 * @param view clicked view
+	 */
 	public void onClick(View view) {
 		switch (view.getId()) {
 		case R.id.button_list_activity:
 			Intent intent = new Intent(this, ExampleListActivity.class);
 			intent.putStringArrayListExtra("list", (ArrayList<String>) getDummyDataList());
-			
+
 			startActivity(intent);
 			break;
 		}
 	}
 	
+	/**
+	 * generates an ArrayList with dummy data
+	 * @return ArrayList with dummy data
+	 */
 	public List<String> getDummyDataList() {
 		List<String> dummyDataList = new ArrayList<String>();
 		dummyDataList.add("Element 1");

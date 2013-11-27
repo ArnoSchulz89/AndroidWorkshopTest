@@ -18,9 +18,9 @@ public class ExampleListActivity extends ListActivity{
 		list = getIntent().getStringArrayListExtra("list");
 		
 		ArrayAdapter<String> adapter = new ArrayAdapter<String>(
-				this,
-				android.R.layout.simple_list_item_1,
-				list
+				this, 								// context
+				android.R.layout.simple_list_item_1,// list design
+				list								// elements which will be displayed
 		);
 		setListAdapter(adapter);
 	}
