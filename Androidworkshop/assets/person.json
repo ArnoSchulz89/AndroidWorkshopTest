@@ -1,0 +1,7 @@
+{
+	"name": "Stanik",
+	"vorname": "Christoph",
+	"alter": 25,
+	"single": false,
+	"hobbys": ["lesen", "programmieren", "zocken", "fachfremdes lernen"]
+}
