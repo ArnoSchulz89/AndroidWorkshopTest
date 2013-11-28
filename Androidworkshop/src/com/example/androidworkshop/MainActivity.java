@@ -69,6 +69,9 @@ public class MainActivity extends Activity {
 		case R.id.button_start_stop_service:
 			startService(new Intent(this, ExampleService.class));
 			break;
+		case R.id.button_start_sensing_activity:
+			startActivity(new Intent(this, AccelerometerExampleActivity.class));
+			break;
 		}
 	}
 

@@ -1,15 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <!-- general -->
     <string name="app_name">Androidworkshop</string>
     <string name="action_settings">Settings</string>
-    <string name="hello_world">Hello world!</string>
 
+    <!-- MaintActivity -->
+    	<!-- TextView -->
+    	<string name="text_json_download">JSON download text"</string>
+    	<!-- Button -->
+	    <string name="button_list_activity">Liste</string>
+	    <string name="button_download_json">Download JSON</string>
+	    <string name="button_start_stop_service">start/stop service</string>
+	    <string name="button_start_sensing_activity">start sensing activity</string>
     
-    <string name="text_json_download">JSON download text"</string>
-
-    <string name="button_list_activity">Liste</string>
-    <string name="button_download_json">Download JSON</string>
-    <string name="button_start_stop_service">starte/stoppe service</string>
+    <!-- AccelerometerExampleActivity -->
+    	<!-- Button -->
+	    <string name="button_start_sensing">start sensing</string>
+	    <string name="button_stop_sensing">stop sensing</string>
 
 </resources>

@@ -35,5 +35,12 @@
         android:layout_height="wrap_content"
         android:text="@string/button_start_stop_service" 
         android:onClick="onClick"/>
+    
+    <Button
+        android:id="@+id/button_start_sensing_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_start_sensing_activity" 
+        android:onClick="onClick"/>
 
 </LinearLayout>

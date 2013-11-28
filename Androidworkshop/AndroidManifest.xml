@@ -25,6 +25,7 @@
             </intent-filter>
         </activity>
         <activity android:name="com.example.androidworkshop.ExampleListActivity" />
+        <activity android:name="com.example.androidworkshop.AccelerometerExampleActivity" />
         <service android:name="com.example.androidworkshop.ExampleService" />
     </application>
 
