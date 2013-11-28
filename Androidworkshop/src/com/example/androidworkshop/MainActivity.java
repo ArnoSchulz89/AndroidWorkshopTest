@@ -32,6 +32,8 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		jsonTextView = (TextView) findViewById(R.id.text_json_download);
+		
+		//test
 		showJSONDummy();
 	}
 
