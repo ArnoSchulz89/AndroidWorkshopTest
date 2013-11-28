@@ -6,6 +6,9 @@
     <string name="hello_world">Hello world!</string>
 
     
+    <string name="text_json_download">JSON download text"</string>
+
     <string name="button_list_activity">Liste</string>
+    <string name="button_download_json">Download JSON</string>
 
 </resources>
