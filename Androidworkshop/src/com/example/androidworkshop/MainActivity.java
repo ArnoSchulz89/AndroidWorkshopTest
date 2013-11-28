@@ -33,7 +33,7 @@ public class MainActivity extends Activity {
 		setContentView(R.layout.activity_main);
 		jsonTextView = (TextView) findViewById(R.id.text_json_download);
 		
-		//test
+		// display JSON dummy data in LogCat
 		showJSONDummy();
 	}
 
