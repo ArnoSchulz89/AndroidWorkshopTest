@@ -67,9 +67,7 @@ public class MainActivity extends Activity {
 			}
 			break;
 		case R.id.button_start_stop_service:
-			Intent serviceIntent = new Intent(this, ExampleService.class);
-			serviceIntent.putExtra("command_start_stop", true);
-			startService(serviceIntent);
+			startService(new Intent(this, ExampleService.class));
 			break;
 		}
 	}
