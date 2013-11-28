@@ -28,5 +28,12 @@
         android:layout_height="wrap_content"
         android:text="@string/button_download_json" 
         android:onClick="onClick"/>
+    
+    <Button
+        android:id="@+id/button_start_stop_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_start_stop_service" 
+        android:onClick="onClick"/>
 
 </LinearLayout>

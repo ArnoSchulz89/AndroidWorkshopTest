@@ -10,5 +10,6 @@
 
     <string name="button_list_activity">Liste</string>
     <string name="button_download_json">Download JSON</string>
+    <string name="button_start_stop_service">starte/stoppe service</string>
 
 </resources>

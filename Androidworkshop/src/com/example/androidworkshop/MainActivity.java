@@ -66,6 +66,11 @@ public class MainActivity extends Activity {
 				jsonTextView.setText("No network connection available.");
 			}
 			break;
+		case R.id.button_start_stop_service:
+			Intent serviceIntent = new Intent(this, ExampleService.class);
+			serviceIntent.putExtra("command_start_stop", true);
+			startService(serviceIntent);
+			break;
 		}
 	}
 
