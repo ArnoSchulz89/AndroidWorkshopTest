@@ -132,6 +132,7 @@ public class MainActivity extends Activity {
 		dummyDataList.add("Element 1");
 		dummyDataList.add("Element 2");
 		dummyDataList.add("Element 3");
+		dummyDataList.add("Element 4");
 
 		return dummyDataList;
 	}
